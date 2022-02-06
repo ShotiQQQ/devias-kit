@@ -50,12 +50,20 @@
         margin-left: 0;
     }
 
+    .content__tabs {
+        padding: 0 20px;
+    }
+
     .content__tabs-burger--active {
         display: block;
     }
 
     .burger__close--active {
         display: block;
+    }
+
+    .main__container {
+        padding: 0 20px;
     }
 }
 

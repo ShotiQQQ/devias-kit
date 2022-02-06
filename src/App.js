@@ -12,7 +12,7 @@ function App() {
       <Header />
         <div className="container">
         <Aside />
-        <div className="content content__container">
+        <div className="content">
           <Tabs />
             <div className="main__container">
               <div className="main__container-left">

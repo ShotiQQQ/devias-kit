@@ -64,16 +64,18 @@
 .header__button {
     width: 19px;
     height: 19px;
-    background-position: center center;
-    background-repeat: no-repeat;
 }
 
-.header__button--notifications {
-    background-image: url("../../public/img/header__notifications.svg");
+.header__button svg rect {
+    transition: fill .3s ease;
 }
 
-.header__button--exit {
-    background-image: url("../../public/img/header__exit.svg");
+.header__button:hover svg rect {
+    fill: #109ef0;
+}
+
+.header__button:active svg rect {
+    fill: #fff;
 }
 
 .header__control-item:not(:last-child) {
